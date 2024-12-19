@@ -35,7 +35,6 @@ function fishBtnClicked() {
   if (character === "steve") {
     //Steve Fish Simulator
     let randNum = Math.random();
-    console.log(randNum);
     if (randNum < 0.7) {
       resultImg.src = "img/Raw-Cod.png";
       numCod++;
